@@ -25,6 +25,7 @@ Tu tarea es crear y administrar el repositorio siguiendo las instrucciones que t
    - Entra en el directorio y conviértelo en un repositorio Git.
        - _cd GitTamurejoSara2024_ (Moverme a la carpeta GitTamurejoSara2024)
        - _git init ._ (Inciar repositorio Git)
+         
     ![2 1](https://github.com/user-attachments/assets/8c61ee90-2355-4f2b-9581-3a301d5f7770)
 
    - Agrega un archivo `.gitignore` y configúralo para ignorar [archivos de log y carpetas de configuración temporales.](https://www.atlassian.com/es/git/tutorials/saving-changes/gitignore)
@@ -42,6 +43,7 @@ Tu tarea es crear y administrar el repositorio siguiendo las instrucciones que t
        - _cat > style.css_ (Crear archivo style.css)
        - _cat > main.js_ (Crear archivo main.js)
        - _ls_ (Mirar contenido de GitTamurejoSara2024)
+         
          ![2 4](https://github.com/user-attachments/assets/bd263d50-bb92-4daf-a94e-e35ddef7a14b)
          ![2 5](https://github.com/user-attachments/assets/167fd8ba-8711-48a4-9b40-447f53ca877c)
 
@@ -68,9 +70,9 @@ Tu tarea es crear y administrar el repositorio siguiendo las instrucciones que t
     ![4 2](https://github.com/user-attachments/assets/55383a32-d1bb-4f4d-95ae-610ee13e28ee)
    - Explica las diferencias entre las 2 preguntas anteriores.
        - En la primera opción tendrá solo el archivo README.md y el la segunda estará vacio pero te saldrán comandos para iniciar un repositorio y añadir cosas.
-   - Indica que comandos te da GitHub al crear un repositorio. Los encontrarás en el apartado `…or create a new repository on the command line
-`
-![4 3](https://github.com/user-attachments/assets/a685204e-50b0-4eee-ab9e-be98d82b6d71)
+   - Indica que comandos te da GitHub al crear un repositorio. Los encontrarás en el apartado `…or create a new repository on the command line`
+     
+  ![4 3](https://github.com/user-attachments/assets/a685204e-50b0-4eee-ab9e-be98d82b6d71)
 
    - Vincula el repositorio remoto con el repositorio local.
        - _git remote add GitTamurejoSara2425 https://github.com/SaraTamurejoMora/GitTamurejoSara2425.git_  (Enlazar el repositorio local con el remoto)
@@ -96,17 +98,19 @@ Tu tarea es crear y administrar el repositorio siguiendo las instrucciones que t
      - Crea un archivo `docs.md` en la carpeta raíz. Escribe un resumen de las funcionalidades del proyecto.
          - _nano docs.md_ (Crear y editar archivo docs.md)
          - _cat docs.md_ (Ver contenido de docs.md)
+           
            ![5 2](https://github.com/user-attachments/assets/65ac02ae-5323-4e6b-b63f-082b83e322d0)
 
      - Haz un commit con el mensaje:  
        `Agregada documentación inicial del proyecto`.
          -  _git add docs.md_ (Añadir docs.md para que se haga control de versiones)
          -  _git comit -m "Agregada documentación inicial del proyecto"_ (Hacer commit con mensaje)
-           ![5 3](https://github.com/user-attachments/assets/8cfe014e-ebf0-4d15-99fd-192563e7e36e)
+       
+        ![5 3](https://github.com/user-attachments/assets/aff96b75-42f3-4fe2-b2bb-c32ce49e223d)
 
    - Cambia a la rama `main` y usa `git diff` para comparar las diferencias entre `main` y `feature/documentacion`.
        - _git diff master..feature/documentacion_ (Comparar las dos ramas)
-![6 1](https://github.com/user-attachments/assets/bc6c4c44-ca59-480c-88b3-7c398c36d4a8)
+     ![6 1](https://github.com/user-attachments/assets/bc6c4c44-ca59-480c-88b3-7c398c36d4a8)
 
 3. **Sincronización:**  
    - Desde la rama `main`, realiza un `git pull` para simular la descarga de cambios del remoto. Si hay conflictos, resuélvelos.
@@ -136,14 +140,16 @@ Tu tarea es crear y administrar el repositorio siguiendo las instrucciones que t
      - _rm src/app.py_ (Borrar el archivo app.py)
      - _git checkout HEAD src/app.py_ (Comanda para recuperar el archivo)
      - _ls src/_ (Ver si el archivo se ha recuperado)
+       
      ![8 1](https://github.com/user-attachments/assets/c5f2c4da-f11a-4f08-9ae4-a4be372e6d18)
 
 3. **Combina ramas:**  
    - Desde `main`, haz un merge de `feature/documentacion`.
      - _git checkout master_ (Cambiar a la rama master)
      - _git merge feature/documentacion_ (Combinar ramas)
+       
      ![9 1](https://github.com/user-attachments/assets/d8d65fe4-805d-46d0-b2b8-59874a1f80e2)
-![9 2](https://github.com/user-attachments/assets/659f4bfb-73b8-4909-866f-517d193221af)
+     ![9 2](https://github.com/user-attachments/assets/659f4bfb-73b8-4909-866f-517d193221af)
 
    - Usa `log` o un alias para verificar los cambios realizados y el historial.
        - _git log_ (Ver el historial y los cambios)
@@ -156,6 +162,7 @@ Tu tarea es crear y administrar el repositorio siguiendo las instrucciones que t
    - Asegúrate de que todos los archivos estén en su lugar y realiza un `push` final al remoto.
        - _git checkout master_ (Cambiar a rama master)
        - _git push GitTamurejoSara master_ (Hacer push de GitTamurejoSara2425 en la rama master)
+         
      ![10 1](https://github.com/user-attachments/assets/a10bd2fc-8816-40e0-9f02-4e2c23a76fb3)
 
    - Realiza una limpieza eliminando la rama `feature/documentacion`.
@@ -166,6 +173,7 @@ Tu tarea es crear y administrar el repositorio siguiendo las instrucciones que t
    - Usa el comando necesario de Linux para listar el contenido de cada directorio.
        - _ls_ (Listar contenido)
        - _ls src/_ (Listar contenido src/)
+         
      ![11 1](https://github.com/user-attachments/assets/156fa17d-1826-43a5-a029-8428a862b7c8)
 
    - Muestra el contenido de los archivos finales con el comando necesario de Linux.
@@ -175,7 +183,8 @@ Tu tarea es crear y administrar el repositorio siguiendo las instrucciones que t
      - _cat README.md_ (Ver contenido)
      - _cat styles.css_ (Ver contenido)
      - _cat src/app.py_ (Ver contenido)
-![11 2](https://github.com/user-attachments/assets/0201a4d9-cdb6-4a0f-83e2-2715fe6f8735)
+       
+   ![11 2](https://github.com/user-attachments/assets/0201a4d9-cdb6-4a0f-83e2-2715fe6f8735)
 
      
        
