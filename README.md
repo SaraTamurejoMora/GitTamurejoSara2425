@@ -131,6 +131,7 @@ Tu tarea es crear y administrar el repositorio siguiendo las instrucciones que t
 
    - Visualiza el historial de `commit` con `log` o con algún comando alias que hayas creado tú.
        - _git log_ (Ver el historial)
+         
      ![7 3](https://github.com/user-attachments/assets/b39e87b6-4a15-43a2-af46-d9994d95b826)
 
    - Si has utilizado comandos alias, indica el equivalente al comando alias. Por ejemplo, mi comando alias `git s` es igual al comando `git status --short`.
@@ -153,6 +154,7 @@ Tu tarea es crear y administrar el repositorio siguiendo las instrucciones que t
 
    - Usa `log` o un alias para verificar los cambios realizados y el historial.
        - _git log_ (Ver el historial y los cambios)
+         
      ![9 3](https://github.com/user-attachments/assets/b86674fd-c059-4fc9-ba3a-1cc8fe441c23)
 
 ---
