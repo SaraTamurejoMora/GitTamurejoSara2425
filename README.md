@@ -140,8 +140,8 @@ Tu tarea es crear y administrar el repositorio siguiendo las instrucciones que t
 
 3. **Combina ramas:**  
    - Desde `main`, haz un merge de `feature/documentacion`.
-         - _git checkout master_ (Cambiar a la rama master)
-         - _git merge feature/documentacion_ (Combinar ramas)
+     - _git checkout master_ (Cambiar a la rama master)
+     - _git merge feature/documentacion_ (Combinar ramas)
      ![9 1](https://github.com/user-attachments/assets/d8d65fe4-805d-46d0-b2b8-59874a1f80e2)
 ![9 2](https://github.com/user-attachments/assets/659f4bfb-73b8-4909-866f-517d193221af)
 
